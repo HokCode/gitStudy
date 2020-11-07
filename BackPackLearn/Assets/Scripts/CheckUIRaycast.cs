@@ -19,5 +19,12 @@ public class CheckUIRaycast : MonoBehaviour {
 			}
 		}
 	}
+
+    public void test()
+    {
+        gameObject.transform.GetChild(0);
+        Sprite sp = GetComponent<Image>().sprite;
+        GetComponent<Image>().sprite = sp;
+    }
 }
 #endif
